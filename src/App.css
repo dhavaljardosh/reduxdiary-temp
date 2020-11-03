@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  background-color: darkslategray;
+  background-color: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
 }
 .App {
   text-align: center;
@@ -48,16 +51,15 @@ body {
 }
 
 .bal-btn {
-  font-size: 20px;
-  padding: 5px;
-  width: 80px;
-  background-color: cornflowerblue;
-  border: 0px;
-  font-weight: 600;
-  border-radius: 5px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
-  color: white;
-  cursor: pointer;
+  font-size: 17px;
+    width: 80px;
+    background-color: #0d84f2;
+    border: 0px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
 }
 
 .bal-name {
@@ -71,10 +73,12 @@ body {
 
 .btn-input {
   padding: 4px;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 5px;
   margin-right: 10px;
-  border: 1px solid black;
+  border: 1px solid #fff;
+  height: 35px;
+  color: #303031;
 }
 
 .contact-detail {
@@ -82,12 +86,16 @@ body {
   display: flex;
   padding: 5px 0px;
   justify-content: space-between;
+  
 }
 
 .contact-name {
   word-break: break-all;
   text-align: left;
   padding-right: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+    line-height: 33px;
 }
 
 .box {
@@ -97,21 +105,40 @@ body {
   text-align: left;
   padding: 20px;
   margin: 10px;
-  background-color: wheat;
+  background-color: #eee;
 }
 
 h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .delete-btn {
   font-size: 16px;
-  font-weight: 600;
-  color: red;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background: red;
-  padding: 5px 5px;
-  color: white;
+    font-weight: 600;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    padding: 3px 9px;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #282c34;
+  opacity: 1; /* Firefox */
+  font-size: 14px;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: cornflowerblue;
+}
+.contact-detail:nth-child(even) {
+  background-color: #dadada;
   border-radius: 5px;
+}
+.contact-details-box{
+  background-color: #fff;
+    margin-top: 16px;
+    padding: 6px;
+    border-radius: 12px;
 }
